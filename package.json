@@ -1,0 +1,26 @@
+{
+  "name": "oop-team-generator",
+  "version": "1.0.0",
+  "description": "Generators an html webpage of a software engineering team",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmanuel6093/OOP-team-generator.git"
+  },
+  "author": "Emmanuel Lorenzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emmanuel6093/OOP-team-generator/issues"
+  },
+  "homepage": "https://github.com/Emmanuel6093/OOP-team-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "jest": "^27.5.1"
+  }
+}
