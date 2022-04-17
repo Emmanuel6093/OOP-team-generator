@@ -1,0 +1,17 @@
+<!-- manager card template -->
+<div class="card employee-card">
+    <div class="card-header">
+        <h2 class="card-title"> {{ name }} </h2>
+        <!-- fontsawesome coffee mug icon -->
+        <h3 class="card-title"><i class="fa-solid fa-mug-hot"> {{ role }} </i></h3>
+    </div>
+
+    <!-- manager card info -->
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item">ID: {{ id }} </li>
+            <li class="list-group-item">Email: <a href="malito {{ email }}">{{ email }}</a></li>
+            <li class="list-group-item">Office Number: {{ officeNumber }}</li>
+        </ul>
+    </div>
+</div>
