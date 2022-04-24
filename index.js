@@ -22,7 +22,7 @@ function manageQuery(){
 inquirer.prompt([{
     type: "input",
             name: "name",
-            message: "What is the name of the team manager?"
+            message: "What is the name of the Team Manager?"
 
 
 }, 
@@ -53,7 +53,7 @@ function addTeamMember() {
 inquirer.prompt([{
     type: "list",
     name: "what_type",
-    message: "Add an engineer or intern to the team?",
+    message: " Would you like to add an engineer or intern to the team?",
     choices: ["Engineer", "Intern", "Not at this time"]
 }]).then(val => {
 
@@ -68,6 +68,7 @@ inquirer.prompt([{
 }
 
 
+// engineer prompt
 function engineerQuery() {
 inquirer.prompt([{
         type: "input",
@@ -77,7 +78,7 @@ inquirer.prompt([{
     {
         type: "input",
         name: "id",
-        message: "Engineer's ID number:"
+        message: "Engineer's ID Number:"
     },
     {
         type: "input",
@@ -99,6 +100,7 @@ inquirer.prompt([{
 
 };
 
+// intern prompt
 function internQuery() {
 inquirer.prompt([{
         type: "input",
@@ -108,7 +110,7 @@ inquirer.prompt([{
     {
         type: "input",
         name: "id",
-        message: "Intern's ID number:"
+        message: "Intern's ID Number:"
     },
     {
         type: "input",
@@ -129,6 +131,7 @@ inquirer.prompt([{
 
 };
 
+// create the file
 function createFile() {
 if (!fs.existsSync(OUTPUT_DIR)) {
     fs.mkdirSync(OUTPUT_DIR)
