@@ -27,3 +27,5 @@ Tests are located in the "tests" folder that can be ran using Jest
 ## Questions 
 
 Email: elorenzo6093@gmail.com and [GitHub: Emmanuel6093](https://github.com/Emmanuel6093)
+
+[Google Drive Video](https://drive.google.com/file/d/1ItbcS0LcQ4qSSyRo9IrbNcGpXH0dWLSe/view)
